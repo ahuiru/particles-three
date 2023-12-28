@@ -4,8 +4,8 @@ import { OrbitControls } from "./node_modules/three/examples/jsm/controls/OrbitC
 const scene = new THREE.Scene();
 
 const size = {
-  width: innerWidth,
-  height: innerHeight,
+  width: window.innerWidth,
+  height: window.innerHeight,
 };
 
 const camera = new THREE.PerspectiveCamera(
